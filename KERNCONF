@@ -1,0 +1,15 @@
+#
+# MYKERNEL config file
+#
+
+include GENERIC
+ident   Z440
+
+options FUSEFS
+device  coretemp
+device  acpi_wmi
+device  smbus
+device  smb
+device  ichsmb
+device  uhid
+device  wmt
